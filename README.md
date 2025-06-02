@@ -4,3 +4,5 @@
 
 - probes -> properties -> objects -> values : keys
 
+- npm(node package manager)
+- npx(node package exutator)
