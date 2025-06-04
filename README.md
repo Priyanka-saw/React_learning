@@ -14,3 +14,4 @@
 extenstion use jsx in vite and sometime in react file also
 
 - single page extension (spe) beacause  one page one div 
+- components -> files
