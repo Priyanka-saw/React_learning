@@ -15,3 +15,5 @@ extenstion use jsx in vite and sometime in react file also
 
 - single page extension (spe) beacause  one page one div 
 - components -> files
+
+{username} -> known as the evaluated expression hota hai so react doesn't allow to write if  for loop 
