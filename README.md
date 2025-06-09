@@ -37,4 +37,11 @@ extenstion use jsx in vite and sometime in react file also
 
  4. abort work if its no longer needed
 
- - tailwind (Autility -fast css framework )
+ - tailwind (A utility -fast css framework that packed with classes)
+
+ - function Card(props) we can pass it directly for distructing like
+ 
+ - function Card({name}) it give smae value as it give first
+ - console.log(props.name) 
+
+ - console.log(name) 
