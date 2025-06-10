@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div ul {
+  background-color: navajowhite;
+  padding: 10px;
+}
