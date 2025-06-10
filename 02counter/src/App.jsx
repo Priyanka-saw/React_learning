@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
 
   // using hooks
-  let [counter, setCounter] = useState(0);
+  let [counter, setCounter] = useState(10);
 
   // for normal js
   // let value = 15;
@@ -15,7 +15,22 @@ function App() {
     // counter = counter + 1;
     // console.log("value clicked", counter);
 
-    setCounter(counter + 1);
+    // this will give continous value with no changes
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+
+    // setCounter callback ** with change in value
+    // it jump upto givn value in usestate 
+    setCounter(preCounter => (
+      preCounter + 1
+    ))
+
+    // ** both are same  
+    setCounter(preCounter => preCounter + 1)
+    setCounter(preCounter => preCounter + 1)
+
   };
 
   const removeValue = () => {

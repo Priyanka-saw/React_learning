@@ -25,7 +25,7 @@ extenstion use jsx in vite and sometime in react file also
 - its goal to increase its suitability for areas like animation gasture and layout
 
 - Reconciliation 
- is the algorithm behind what is popularly understood as the "Vitual DOM"
+ is the algorithm behind what is popularly understood as the "Virtual DOM"
 
  - features
 
@@ -45,3 +45,7 @@ extenstion use jsx in vite and sometime in react file also
  - console.log(props.name) 
 
  - console.log(name) 
+
+
+- setCounter is the type of function 
+where we can callback it  using arrow function or any type
