@@ -49,3 +49,17 @@ extenstion use jsx in vite and sometime in react file also
 
 - setCounter is the type of function 
 where we can callback it  using arrow function or any type
+
+
+- useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+``` javascript
+const cachedFn = useCallback(fn, dependencies)
+
+````
+- UseEffect is a react hook that lets you synchronize a component with an external system
+```javascript 
+
+useEffect(setup, dependencies?)
+
+```
