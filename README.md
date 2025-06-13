@@ -52,14 +52,18 @@ where we can callback it  using arrow function or any type
 
 
 - useCallback is a React Hook that lets you cache a function definition between re-renders.
+function lo memoerize karta hai
 
 ``` javascript
 const cachedFn = useCallback(fn, dependencies)
 
 ````
 - UseEffect is a react hook that lets you synchronize a component with an external system
+page ko reload karta hai jab jab koi activity run hoga tab page reload hoga 
 ```javascript 
 
 useEffect(setup, dependencies?)
 
 ```
+
+- useRef is used for the taking reference of the other value's and manipulate it 
