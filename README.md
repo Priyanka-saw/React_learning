@@ -67,3 +67,6 @@ useEffect(setup, dependencies?)
 ```
 
 - useRef is used for the taking reference of the other value's and manipulate it 
+
+
+- remember the keys in loops in react
