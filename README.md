@@ -70,3 +70,5 @@ useEffect(setup, dependencies?)
 
 
 - remember the keys in loops in react
+
+- react-router-dom is a library for handling routing in React applications.
